@@ -32,9 +32,11 @@ docker compose version
 
 ## ▶️ Start the Application
 
-Run the following command to start all services in detached mode:
+Run the following commands to start all services in detached mode:
 
 ```bash
+docker build -t my-node-app .
+
 docker compose -f mongodb.yaml up -d
 ```
 
